@@ -1,5 +1,4 @@
 # Name: Sena Karadeniz
-# Student ID: 11862894
 # University: Charles Sturt University (Melbourne Campus)
 # Subject: S-ITC558_202630 Programming Principles
 # Assessment: Assessment 3 – Drawing with Functions
