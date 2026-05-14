@@ -18,7 +18,7 @@ COLS_PER_BLOCK = 6
 CODE_A = 65
 
 VALID_BG_COLOURS = ["lightgrey", "skyblue", "yellow"]
-VALID_AVAILABLE_COLOURS = ["red", "green", "blue"]
+VALID_UNAVAILABLE_COLOURS = ["red", "green", "blue"]
 
 DEFAULT_BG_COLOUR = "lightgrey"
 DEFAULT_AVAILABLE_COLOUR = "white"
@@ -80,7 +80,7 @@ def get_unavailable_colour():
     if colour == "":
         colour = DEFAULT_UNAVAILABLE_COLOUR
 
-    while colour not in VALID_AVAILABLE_COLOURS:
+    while colour not in VALID_UNAVAILABLE_COLOURS:
         print("Invalid colour. Please choose red, green, or blue.")
         colour = input("Enter unavailable spot colour [default: red]: ")
 
